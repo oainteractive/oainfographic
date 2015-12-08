@@ -1,0 +1,91 @@
+html, body {
+  margin: 0 auto; }
+
+#main {
+  margin-top: 80px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  #main:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  #main #body {
+    margin-top: 91px; }
+  #main .top-spacer {
+    height: 104px; }
+    #main .top-spacer:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #main .bottom_banner {
+    margin: 51px 0 68px 0; }
+    #main .bottom_banner:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #main .bottom_spacer {
+    height: 119px;
+    margin-top: 56px; }
+    #main .bottom_spacer:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #main .spacer {
+    height: 119px;
+    margin-top: 58px; }
+    #main .spacer:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #main .left-activity {
+    height: 78px;
+    float: left;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    margin-top: -6px; }
+    #main .left-activity:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #main .left-activity .activity {
+      right: 0; }
+      #main .left-activity .activity .label {
+        right: 223px; }
+      #main .left-activity .activity .year {
+        right: 75px; }
+      #main .left-activity .activity .dots {
+        right: -37px; }
+  #main .right-activity {
+    height: 78px;
+    float: right;
+    width: 50%;
+    text-align: left;
+    margin-top: -6px; }
+    #main .right-activity:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #main .right-activity .activity {
+      left: 0; }
+      #main .right-activity .activity .label {
+        left: 223px; }
+      #main .right-activity .activity .year {
+        left: 75px; }
+      #main .right-activity .activity .dots {
+        left: -37px; }
+  #main .activity {
+    position: relative; }
+    #main .activity .label {
+      position: absolute; }
+    #main .activity .year {
+      position: absolute; }
+    #main .activity .dots {
+      margin-left: 0;
+      position: absolute;
+      text-align: center;
+      width: 74px;
+      height: 74px; }
+
+/*# sourceMappingURL=layout.css.map */

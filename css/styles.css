@@ -1,0 +1,16 @@
+.content {
+  text-align: center; }
+  .content .spacer, .content .top-spacer, .content .bottom_spacer {
+    background-image: url("/imgs/spacer_dots.png");
+    background-repeat: no-repeat;
+    background-position: center top; }
+  .content .dots {
+    background-image: url("/imgs/greyCircle.png");
+    background-repeat: no-repeat;
+    background-position: center top; }
+  .content .hoverDot {
+    background-image: url("/imgs/mouseoverDot.png");
+    background-repeat: no-repeat;
+    background-position: center top; }
+
+/*# sourceMappingURL=styles.css.map */
